@@ -1,0 +1,18 @@
+To: recipient@example.com  
+From: your_email@gmail.com  
+Subject: Test Subject  
+
+Dear [Recipient's Name],
+
+I hope this message finds you well.
+
+This is a test email sent to demonstrate the proper email formatting. Please let me know if you require any additional information or assistance regarding this test.
+
+Thank you for your time and attention.
+
+Best regards,  
+[Your Full Name]  
+[Your Position]  
+[Your Contact Information]  
+[Your Company (if applicable)]
+
