@@ -5,8 +5,8 @@
 # Last updated: Sun Oct 13, 2024
 
 # Define base directory, archive path, and other parameters
-BASE="/home/revati/Desktop/script-lab"
-DAYS=2           # Not currently used, but reserved for potential future use
+BASE="Your_Directory_Path"
+DAYS=15         # Not currently used, but reserved for potential future use
 DEPTH=1          # Limit search depth for files
 RUN=0            # Flag to control whether compression and moving should occur
 
@@ -24,7 +24,7 @@ if [[ ! -d $BASE/archive ]]; then
 fi
 
 # Find and process large files in the specified directory
-echo "Searching for files larger than 7k in $BASE..."
+echo "Searching for files larger than 70M in $BASE..."
 for file in $(find "$BASE" -maxdepth $DEPTH -type f -size +7k); do
     # Check if the RUN flag is set to 0 (for first-time execution)
     if [[ $RUN -eq 0 ]]; then
