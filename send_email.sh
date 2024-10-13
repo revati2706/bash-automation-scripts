@@ -5,7 +5,7 @@
 # Last updated: Sun Oct 13, 2024
 
 # Email recipient, subject, and sender details
-TO="justforcyber1@gmail.com"
+TO="your-email@example.com"
 SUBJECT="Test Email"
 FROM="your-email@example.com"  # Replace with the actual sender's email if needed
 
